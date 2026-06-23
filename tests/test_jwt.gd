@@ -10,7 +10,7 @@ var expired_jwt: String
 var valid_jwt: String
 var no_exp_jwt: String
 
-func before_all():
+func _before_all():
 	expired_jwt = header_b64 + "." + payload_expired_b64 + "." + signature
 	valid_jwt = header_b64 + "." + payload_valid_b64 + "." + signature
 	no_exp_jwt = header_b64 + "." + payload_no_exp_b64 + "." + signature

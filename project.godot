@@ -10,5 +10,6 @@ config_version=5
 
 [application]
 
-config/name="dotenv_module_tests"
-config/features=PackedStringArray("4.4", "Forward Plus")
+config/name="jwttool_module_tests"
+run/main_scene="uid://dmmnxfk0wu2rh"
+config/features=PackedStringArray("4.3.2", "Forward Plus")
